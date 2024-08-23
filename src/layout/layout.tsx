@@ -8,7 +8,6 @@ export default function DashboardLayout({
   children: React.ReactNode;
 }) {
   const [open, setOpen] = useState(false);
-
   return (
     <>
       <div className="flex bg-gray-100">
