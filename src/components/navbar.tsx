@@ -24,7 +24,7 @@ export default function Navbar() {
   return (
     <div className="bg-primary-700 text-primary-950 flex justify-between items-center h-20 max-w-[1240px] mx-auto px-4 text-palm-leaf rounded-b-lg animate-fade-down backdrop-filter backdrop-blur-lg bg-opacity-30">
       <div className="pl-5 flex items-center">
-        <Image src="/logo.png" alt="Logo" width={70} height={60} />
+        <Image src="/images/logo.png" alt="Logo" width={70} height={60} />
         <h1 className="font-bold text-lg">Dashboard Sapit</h1>
       </div>
 
@@ -62,7 +62,7 @@ export default function Navbar() {
       >
         {/* Mobile Logo */}
         <div className="my-5 grid justify-items-center">
-          <Image src="/logo.png" alt="Logo" width={70} height={60} />
+          <Image src="/images/logo.png" alt="Logo" width={70} height={60} />
         </div>
 
         {/* Mobile Navigation Items */}

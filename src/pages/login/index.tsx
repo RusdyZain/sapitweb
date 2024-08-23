@@ -43,7 +43,7 @@ const Login = () => {
       <div className="hidden md:flex flex-col items-center justify-center relative h-screen w-full bg-black">
         <div className="absolute inset-0 opacity-50 z-0 bg-[url('/images/loginBg.jpg')] bg-cover bg-center" />
         <div className="z-10 flex items-center">
-          <Image src="/logo.png" alt="Logo" width={250} height={250} />
+          <Image src="/images/logo.png" alt="Logo" width={250} height={250} />
           <div className="text-white w-[50vh]">
             <h1 className=" text-5xl font-bold  font-primary">
               Dashboard Sapit

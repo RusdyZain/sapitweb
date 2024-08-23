@@ -33,7 +33,7 @@ export default function Sidebar({ open, setOpen }: SidebarProps) {
 
   const handleLogout = async () => {
     try {
-      const response = await fetch("/api/logout", {
+      const response = await fetch("/api/images/logout", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -65,7 +65,7 @@ export default function Sidebar({ open, setOpen }: SidebarProps) {
       />
       <div className="flex flex-col px-5 items-center">
         <Image
-          src="/logo.png"
+          src="/images/logo.png"
           alt="Company Logo"
           className={`cursor-pointer block float-left mr-3 duration-500 ${
             !open && "hidden"

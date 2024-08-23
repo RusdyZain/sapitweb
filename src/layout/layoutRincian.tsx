@@ -18,7 +18,7 @@ export default function RincianLayout({
             title="Rincian Data Wilayah"
             userName="Sapit"
             userStatus="Admin"
-            profilePicture="/logo.png"
+            profilePicture="/images/logo.png"
           />
           <div className={`duration-300 p-5 w-full`}>{children}</div>
         </div>
