@@ -1,0 +1,51 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model DataTambahan {
+  id           String @id @default(auto()) @map("_id") @db.ObjectId
+  anakYatim    String
+  bpjs         String
+  jamban       String
+  jenisBantuan String
+  jenisUsulan  String
+  kawilId      String
+  kendaraan    String
+  ibuHamil    String
+  jandaDuda   String
+  statusRumah  String
+  ternak       String
+  tki          String
+  umkm         String
+  wargaId      String @unique
+}
+
+model DataWarga {
+  id                     String @id @default(auto()) @map("_id") @db.ObjectId
+  alamatLengkap          String
+  jenisKelamin           String
+  kawilId                String
+  kedudukanDalamKeluarga String
+  nama                   String
+  namaIbuKandung         String
+  nik                    String @unique
+  nikKk                  String
+  pekerjaan              String
+  pendidikanTerakhir     String
+  statusPerkawinan       String
+  tanggalLahir           String
+  tempatLahir            String
+}
+
+model Kawil {
+  id       String @id @default(auto()) @map("_id") @db.ObjectId
+  dusun    String
+  email    String @unique
+  nama     String
+  password String
+}
