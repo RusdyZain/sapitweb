@@ -31,8 +31,8 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek secara lokal:
 
 1. **Clone repository ini**:
    ```bash
-   git clone https://github.com/SapitDev/DashboardSapit.git
-   cd DashboardSapit
+   git clone https://github.com/RusdyZain/sapitweb.git
+   cd sapitweb
    ```
 
 2. **Instal dependensi yang diperlukan**:
